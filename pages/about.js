@@ -5,7 +5,8 @@ export default function About() {
         <div>
             <Navbar />
             <div>
-                <h1> Howdy! Down yonder, you can call me Sal! </h1>
+                <h1> About Me </h1>
+                <p> I'm a developer, </p>
             </div>
         </div>
     )

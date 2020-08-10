@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default functiogit n Home() {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Salman Malik: Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,18 +15,20 @@ export default functiogit n Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          I'm a 2nd generation full stack developer from Texas with a love for creating, collaborating, and learning!
+          I'm excited to share my passion with you!
         </p>
 
+        <p className={styles.description}>You can find me and my work on:</p>
+
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
+          <a href="https://www.linkedin.com/in/salman-malik-3ba849bb" className={styles.card}>
+            <h3>Linkedin &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
+          <a href="https://github.com/salman5436" className={styles.card}>
+            <h3>Github &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -34,7 +36,7 @@ export default functiogit n Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
+            <h3>Resume &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -42,7 +44,7 @@ export default functiogit n Home() {
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Blog &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
@@ -51,6 +53,8 @@ export default functiogit n Home() {
       </main>
 
       <footer className={styles.footer}>
+        <p>Salman Malik </p>
+        <br />
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"

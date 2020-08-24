@@ -14,3 +14,33 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.profile-pic img {
+  padding-top: 10px;
+  width: 20vw;
+  height: 28vw;
+  margin: 0 auto;
+  margin-top: px;
+  display: block;
+}
+
+.tech {
+  display: inline-flexbox;
+}
+
+.techname {
+  flex-flow: column;
+  
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+}

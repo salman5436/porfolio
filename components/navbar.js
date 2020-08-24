@@ -13,7 +13,7 @@ export default function Navbar() {
             <Head>
                 <title>Salman: Portfolio</title>
             </Head>
-            <navbar>
+            <navbar className="navbar">
                 <ul>
                     <li>
                         <Link href="/">

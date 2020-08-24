@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
+    <div>
+    <Navbar />
     <div className={styles.container}>
-      <Head>
+       <Head>
         <title>Salman Malik: Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -24,12 +27,12 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://www.linkedin.com/in/salman-malik-3ba849bb" className={styles.card}>
             <h3>Linkedin &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Connect with me on LinkedIn! Let's start a conversation!</p>
           </a>
 
           <a href="https://github.com/salman5436" className={styles.card}>
             <h3>Github &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Check out my Github to see my projects & interests!</p>
           </a>
 
           <a
@@ -37,7 +40,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Resume &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Click here to view my resume with my professional experience! </p>
           </a>
 
           <a
@@ -45,25 +48,16 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Blog &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <p> Check out my blog! I write about music, coding, gaming & more. </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <p>Salman Malik </p>
-        <br />
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <h4>Salman Malik - 2020</h4>
+        
       </footer>
+    </div>
     </div>
   )
 }

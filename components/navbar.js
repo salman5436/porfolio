@@ -4,9 +4,9 @@ import { useEffect } from 'react'
 
 
 export default function Navbar() {
-    useEffect(() => {
-        document.getElementById("home").style.color="hotpink"
-    }, [])
+    // useEffect(() => {
+    //     document.getElementById("home").style.color="hotpink"
+    // }, [])
     
     return (
         <div>

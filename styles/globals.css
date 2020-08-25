@@ -4,7 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #922C40;
+  color: #F3EAC0;
 }
+
 
 a {
   color: inherit;
@@ -25,13 +28,15 @@ a {
 }
 
 .tech {
-  display: inline-flexbox;
+  display: flex
 }
 
 .techname {
-  flex-flow: column;
-  
+  justify-self: space-between;
+  text-align: justify;
+  padding-left: 10px;
 }
+
 
 .navbar ul {
   list-style: none;
@@ -43,4 +48,18 @@ a {
   text-align: left;
   font-weight: bold;
   font-size: 17px;
+  color: #DC9750;
+}
+
+.brand-statement {
+  padding-top: 20px;
+}
+
+.personal-summary {
+  padding-top: 20px;
+}
+
+.tech-stacks {
+  padding-top: 30px;
+  padding-left: 10px;
 }

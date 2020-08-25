@@ -25,18 +25,18 @@ export default function Home() {
         <p className={styles.description}>You can find me and my work on:</p>
 
         <div className={styles.grid}>
-          <a href="https://www.linkedin.com/in/salman-malik-3ba849bb" className={styles.card}>
+          <a href="https://www.linkedin.com/in/salman-malik-3ba849bb" target='_blank' className={styles.card}>
             <h3>Linkedin &rarr;</h3>
             <p>Connect with me on LinkedIn! Let's start a conversation!</p>
           </a>
 
-          <a href="https://github.com/salman5436" className={styles.card}>
+          <a href="https://github.com/salman5436" target='_blank' className={styles.card}>
             <h3>Github &rarr;</h3>
             <p>Check out my Github to see my projects & interests!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href='/resume.pdf' target='_blank'
             className={styles.card}
           >
             <h3>Resume &rarr;</h3>
@@ -44,7 +44,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href='https://wordpress.com' target='_blank'
             className={styles.card}
           >
             <h3>Blog &rarr;</h3>

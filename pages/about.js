@@ -19,7 +19,7 @@ export default function About() {
                 </div>
                 <div className="brand-statement">
                     <p className={styles.description}>
-                    A versatile and growth-oriented learner, I am a second-generation software engineer with a passion for creative problem-solving through collaboration and dedication.
+                    A growth-oriented learner, I am a second-generation software engineer with a passion for creative problem-solving through collaboration and dedication.
                     </p>
                 </div>
                 {/* <div className="personal-description">
@@ -27,7 +27,9 @@ export default function About() {
                 </div> */}
                 <div className="personal-summary">
                     <p className={styles.description}> I recently graduated from Texas A&M University and worked in business management before making the transition to software engineering.
-                        Having recently completed the General Assembly Software Engineering Immersive, I gained hands-on project experience with various tools and technologies.
+                        Having recently completed the General Assembly Software Engineering Immersive, I gained hands-on project experience with various tools and technologies.  In my free time,
+                        you can find me singing covers, writing poetry or stories, playing cooperative videogames, trying food from different cultures, and travelling!  I love connecting with people
+                        and I encourage you to reach out and get to know me 
                     </p>
                 </div>
 
@@ -71,6 +73,14 @@ export default function About() {
                         </div>
                 </div>
                
+            </div>
+
+            <div className="tolinks">
+              <h1>Connect with me!</h1>
+              <ul>
+                <a href="https://github.com/salman5436" target='_blank'><li class="fa fa-github grow"></li></a>
+                <a href="https://www.linkedin.com/in/salman-malik-3ba849bb" target='_blank'> <li class="fa fa-linkedin grow"></li> </a>
+              </ul>
             </div>
         </div>
     )

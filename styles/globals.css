@@ -62,3 +62,29 @@ a {
   padding-top: 30px;
   padding-left: 10px;
 }
+
+.tolinks {
+  background-color: #1E2640;
+  color: white;
+  font-family: 'Droid Sans', sans-serif;
+  text-align: center;
+
+}
+.tolinks h1 {
+  font-size: 2.5em;
+}
+.tolinks ul {
+  padding: 0;
+  font-size: 2em;
+}
+.tolinks ul li {
+  display: inline-block;
+  width: 1.2em;
+}
+.tolinks ul li.grow {
+  transition: all 0.2s ease-in-out;
+}
+.tolinks ul li.grow:hover {
+  transform: scale(1.5);
+}
+

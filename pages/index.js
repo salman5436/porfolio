@@ -44,12 +44,13 @@ export default function Home() {
           </a>
 
           <a
-            href='https://wordpress.com' target='_blank'
+            href='https://medium.com' target='_blank'
             className={styles.card}
           >
             <h3>Blog &rarr;</h3>
             <p> Check out my blog! I write about music, coding, gaming & more. </p>
           </a>
+         
         </div>
       </main>
 

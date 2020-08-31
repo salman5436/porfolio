@@ -51,6 +51,14 @@ export default function Projects() {
                     </a>
                 </div>
             </main>  
+
+            <div className="tolinks">
+              <h1>Connect with me!</h1>
+              <ul>
+                <a href="https://github.com/salman5436" target='_blank'><li class="fa fa-github grow"></li></a>
+                <a href="https://www.linkedin.com/in/salman-malik-3ba849bb" target='_blank'> <li class="fa fa-linkedin grow"></li> </a>
+              </ul>
+            </div>
         </div>
     )
 }

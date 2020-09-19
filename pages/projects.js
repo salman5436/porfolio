@@ -1,6 +1,5 @@
 import Navbar from '../components/navbar'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Projects() {
     return (
@@ -15,7 +14,7 @@ export default function Projects() {
                     Check out my work!
                 </h1>
 
-                <div className={styles.grid}>
+                <div className="projects">
                     <a href="" className={styles.card}>
                         <h3>Lunar Tribune - Hackathon Winning Project! &rarr;</h3>
                         <p> When tasked with making a project within 24 hours that fulfilled the theme of "wonder" in the latest Hackathon at General Assembly, my team of developers and UX designers set out to build a deep, whimsical, and detailed satirical news hub.</p>
@@ -23,7 +22,7 @@ export default function Projects() {
                         <p>Technologies used: React, Bootstrap, FIGMA</p>
                     </a>
                 </div>
-                <div className={styles.grid}>
+                <div className="projects">
                     <a href="https://happy-hypatia-639c22.netlify.app/" className={styles.card}>
                         <h3>DevSpot &rarr;</h3>
                         <p>An intuitive collaborative platform that allows developers to grow together through hands-on project experience</p>

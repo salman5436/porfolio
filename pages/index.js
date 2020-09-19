@@ -1,19 +1,27 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
+import Header from '../components/header'
+import About from '../components/about'
+import Skills from '../components/skills'
+import Projects from '../components/projects'
 
 export default function Home() {
   return (
     <div>
-    <Navbar />
-    <div className={styles.container}>
-       <Head>
-        <title>Salman Malik: Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div>
+        <Head>
+          <title>Salman Malik: Portfolio</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main>
+        <Header />
+        <About />
+        <Skills />
+        <Projects /> 
+
+
+        {/* <h1 className={styles.title}>
           Hello, I'm Salman
         </h1>
 
@@ -51,14 +59,14 @@ export default function Home() {
             <p> Check out my blog! I write about music, coding, gaming & more. </p>
           </a>
          
-        </div>
-      </main>
+        </div> */}
+        </main>
 
-      <footer className={styles.footer}>
-        <h4>Salman Malik - 2020</h4>
+        <footer className={styles.footer}>
+          <h4>Salman Malik - 2020</h4>
         
-      </footer>
-    </div>
+        </footer>
+      </div>
     </div>
   )
 }
